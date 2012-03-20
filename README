@@ -1,0 +1,15 @@
+code of my research: multiple object tracking by dense motion analysis
+
+version 1.0
+
+procedure:
+1. dense motion: SIFT flow
+2. training affine models to fit the data
+3. cluster affine model and get the centers
+
+do 
+4. assign each pixel motion to one of the centers
+5. update the params of center affine model and then re-cluster
+until centers meet certain condition
+
+////////////////////////////////////////////////////////////////////////////////
